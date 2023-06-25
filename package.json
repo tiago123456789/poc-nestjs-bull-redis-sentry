@@ -20,6 +20,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@bull-board/api": "^5.5.3",
+    "@bull-board/nestjs": "^5.5.3",
     "@nestjs/bull": "^10.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
@@ -28,7 +30,8 @@
     "bull": "^4.10.4",
     "json-to-pretty-yaml": "^1.2.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "taskforce-connector": "^1.24.3"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
